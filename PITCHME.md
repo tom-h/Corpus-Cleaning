@@ -1,6 +1,6 @@
 # Corpus Cleaning Workshop
 
-----
+---
 
 # Terminology
 
@@ -9,7 +9,7 @@
 - Metadata
 - 
 
-----
+---
 
 ## What is archiving?
 
@@ -19,7 +19,7 @@
 
 *Corpora are ideally built upon archived or published material, i.e., built upon citable sources*
 
-----
+---
 
 ## What is a corpus?
 - A collection of textual material coded in a way that it aims to answer one or more specific research goals
@@ -28,7 +28,7 @@
 
 *Training ASR is an extension of your work that requires a well organised and consistent corpus.*
 
-----
+---
 
 ## What is a “clean” corpus?
 
@@ -39,7 +39,7 @@
 ☞ Cleaning a corpus is the process of reviewing the categories that you have coded, documenting conventions, or better moving away from convention to explicit, consistent and verbose coding of categories of annotations such that a non-expert can understand what you have done
 Workflow
 
-----
+---
 
 ## What are tokens?
 
@@ -48,7 +48,7 @@ Workflow
 - A way of thinking about how a computer sees language data
 - A way of thinking about at what levels annotations may apply
 
-----
+---
 
 ## What is metadata?
 
@@ -61,7 +61,7 @@ Workflow
   - Permissions
   - etc...
 
-----
+---
 
 ## Archival metadata
 
@@ -71,7 +71,7 @@ Workflow
 - Structural metadata
 - ...
 
-----
+---
 
 ## Research metadata
 
@@ -80,13 +80,13 @@ Workflow
 - What are annotations?
 - A type of “metadata”: an elaboration on data or metadata
 
-----
+---
 
 ### Where does archiving fit relative to my research goals?
 ### Where does corpus building fit relative to my research goals?
 ### How does principled corpus building and archiving help me achieve my research goals?
 
-----
+---
 
 ## Data Gathering
 
@@ -96,7 +96,7 @@ Workflow
 - Noise free audio
 - Metadata best practice
 
-----
+---
 
 ## Legacy materials
 - Careful treatment of legacy materials
@@ -104,7 +104,7 @@ Workflow
 - Close association between original data and enriched forms
 E.g., new annotations reference page numbers of source, filename for image of source, etc
 
-----
+---
 
 ## Archiving
 - Archives capture bundles of files that record the work that you have done
@@ -115,7 +115,7 @@ E.g., new annotations reference page numbers of source, filename for image of so
   - Fieldnotes
   - etc...
 
-----
+---
 
 - Archive early, archive incrementally
 - Get permissions, do the paperwork, create a collection
@@ -125,7 +125,7 @@ E.g., new annotations reference page numbers of source, filename for image of so
   - Transcripts change between capturing, reviewing and corpus building
   - Consider archiving on a timetable to capture these changes, or archiving at the end of certain phases of work
 
-----
+---
 
 - These incremental changes can be extremely useful, and can be kept private if necessary
 - There is no limit on the number of times you can do this, or when you do this
@@ -136,7 +136,7 @@ E.g., new annotations reference page numbers of source, filename for image of so
   - Metadata folded into media
   - Neatly organised file structure and metadata
   
-----
+---
 
 ### Note that there are CoEDL expectations and guidelines for archiving:
 
@@ -145,7 +145,7 @@ http://www.dynamicsoflanguage.edu.au/research/data-archives/expectations-of-coed
 You do not need to be an expert at this! The data manager, Julia Miller, is available for you to consult with at any time. If you haven’t talked to her yet, then make an appointment.
 Corpus building
 
-----
+---
 
 Many linguistics projects start with the gathering of language data into a collection called a “corpus”
 ☞ The corpus may be a subset of archived materials, and may incorporate work produced by others. Ideally, it is built on citable sources.
@@ -155,7 +155,7 @@ The primary object in a textual corpus is the text, while annotations contextual
 A corpus aggregates individual transcripts/sessions into a larger “document” or database
 ☞ This means that structure and coding of comparable categories needs to be equivalent across individual documents
 
-----
+---
 
 ## Design
 
@@ -167,7 +167,7 @@ A corpus aggregates individual transcripts/sessions into a larger “document”
 - Good design will broaden the possible uses of your work
 - Planning to change your mind will help
 
-----
+---
 
 ## Tools
 
@@ -180,14 +180,14 @@ A corpus aggregates individual transcripts/sessions into a larger “document”
 ### In General:
 - Search for punctuation, sequences of capital letters, ...
 
-----
+---
 
 ## Mixed categories
 
 - Many linguists work with, at a minimum, chunks of transcription, and possibly corresponding translation. While these may seem straightforward categories of data, in reality they are often a jumble of mixed categories.
 - Inline meta-annotation, often by a set of loose and expanding conventions, is useful way of speeding up transcription. However, it is a good idea to review, separate and expand these conventions once the corpus is of a reasonable size. Working on a corpus of a reasonable size will allow you to clean more quickly, without repeating work.
 
-----
+---
 
 ## Transcription
 - For ASR, and more generally, the principles behind the transcription need to be consistent.
@@ -205,7 +205,7 @@ A corpus aggregates individual transcripts/sessions into a larger “document”
   - “He wal- … ran.” (false start)
   - “He walked- no actually he ran.” (“rushed” prosody)
   
-----
+---
 
 ## ELAN setup
 
