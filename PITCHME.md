@@ -1,6 +1,21 @@
 # Corpus Cleaning Workshop
 
 http://github.com/tom-h/Corpus-Cleaning
+https://gitpitch.com/tom-h/Corpus-Cleaning/master
+
+---
+
+# Topics
+
+- Terminology
+- Workflow(s)
+- Archiving
+
+---
+
+- Corpus cleaning
+- ELAN setup
+- OpenRefine
 
 ---
 
@@ -12,11 +27,11 @@ http://github.com/tom-h/Corpus-Cleaning
 
 ---
 
-## What is archiving?
+## What is an Archive?
 
-- A record of work done, gathered while that work is being done
-- A place where that record is preserved by specialists
-- A place where researchers and other interested parties can reconstruct the work that you have done
+- A record of work done, gathered while/once that work is being done |
+- A place where that record is preserved by specialists |
+- A place where researchers and other interested parties can reconstruct the work that you have done |
 
 *Corpora are ideally built upon archived or published material, i.e., built upon citable sources*
 
@@ -24,57 +39,62 @@ http://github.com/tom-h/Corpus-Cleaning
 
 ## What is a corpus?
 
-- A collection of textual material coded in a way that it aims to answer one or more specific research goals
-- The place to go to discover/check your assertions
-- Potentially: a place to send other people to verify or extend upon your work
+- A collection of textual material organised in a way that it aims to answer one or more specific research goals |
+- The place to go to discover/check your assertions | 
+- Potentially: a place to send other people to verify or extend upon your work |
 
 *Training ASR is an extension of your work that requires a well organised and consistent corpus.*
 
 ---
 
+- A corpus is not an archive
+
+---
+
 ## What is a “clean” corpus?
 
-- One where categories of annotation/metadata are clearly distinguishable to other researchers (and to computers…)
-- One where tokens are consistently delimited in a principled and consistent fashion
-- Ideally, one where each category of annotation/metadata is distinguished in parallel but separate streams.
+- One where categories of annotation/metadata are clearly distinguishable to other researchers (and to computers…) |
+- One where tokens are consistently delimited in a principled and consistent fashion |
+- Ideally, one where each category of annotation/metadata is distinguished in parallel but separate streams 
 
 ---
 
 - More likely: a collection of conventions that are well documented and consistently applied
 
-*Cleaning a corpus is the process of reviewing the categories that you have coded, documenting conventions, or better moving away from convention to explicit, consistent and verbose coding of categories of annotations such that a non-expert can understand what you have done*
+---
+
+Cleaning a corpus is the process of:
+- reviewing the categories that you have coded, 
+- documenting conventions, or better
+- moving away from convention to explicit, consistent and verbose coding of categories of annotations
 
 ---
 
 ## What are tokens?
 
-- Chunks of “primary” data
-- a term more conventionally used in computational linguistics
-- A way of thinking about how a computer sees language data
-- A way of thinking about at what levels annotations may apply
+- Chunks of “primary” data |
+- a term more conventionally used in computational linguistics |
+- A way of thinking about how a computer sees language data |
+- A way of thinking about at what levels annotations may apply |
 
 ---
 
 ## What is metadata?
 
-- ...Data about data: ...but, that’s almost everything
-- Usually used to refer to classes of specific metadata created for a purpose, e.g.,:
-  - File Metadata:
-  - Date and times
-  - Filename
-  - File type
-  - Permissions
-  - etc...
+- ...Data about data
+
+---
+
+Usually used to refer to classes of specific metadata created for a purpose, e.g.,:
+
+- File Metadata: Date and times, Filename, File type, Permissions, etc...
 
 ---
 
 ## Archival metadata
 
-- Descriptive metadata
-- Rights metadata
-- Provenance Metadata
-- Structural metadata
-- ...
+- Descriptive metadata, Rights metadata, Provenance Metadata, Structural metadata
+- etc
 
 ---
 
@@ -82,18 +102,26 @@ http://github.com/tom-h/Corpus-Cleaning
 
 - Specific categories of metadata that may overlap with archiving
 - Coding of categories that inform your research questions
-- What are annotations?
+
+---
+
+## What are annotations?
+
 - A type of “metadata”: an elaboration on data or metadata
 
 ---
 
 # Workflow
 
-### Where does archiving fit relative to my research goals?
-### Where does corpus building fit relative to my research goals?
-### How does principled corpus building and archiving help me achieve my research goals?
+---
+
+#### What to watch out for early on
+#### Where does archiving fit relative to my research goals?
+#### Where does corpus building fit relative to my research goals?
+#### How does principled corpus building and archiving help me achieve my research goals?
 
 ---
+#### Where does archiving fit relative to my research goals?
 
 ## Data Gathering
 
@@ -110,6 +138,7 @@ http://github.com/tom-h/Corpus-Cleaning
 - Careful treatment of legacy materials
 - Tracking original metadata to capture context in a recoverable fashion
 - Close association between original data and enriched forms
+
 E.g., new annotations reference page numbers of source, filename for image of source, etc
 
 ---
