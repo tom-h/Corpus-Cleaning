@@ -4,10 +4,9 @@
 
 # Terminology
 
-- Corpus
 - Archive
+- Corpus
 - Metadata
-- 
 
 ---
 
@@ -99,6 +98,7 @@ Workflow
 ---
 
 ## Legacy materials
+
 - Careful treatment of legacy materials
 - Tracking original metadata to capture context in a recoverable fashion
 - Close association between original data and enriched forms
@@ -107,6 +107,7 @@ E.g., new annotations reference page numbers of source, filename for image of so
 ---
 
 ## Archiving
+
 - Archives capture bundles of files that record the work that you have done
 - Ideally, this would capture change over time, not just “finished” materials
 - Work that contextualises language material is suitable for archiving
