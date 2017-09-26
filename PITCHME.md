@@ -4,17 +4,10 @@
 
 # Terminology
 
-## Corpus
-
-## Archive
-
-----
-
-## What is a corpus?
-- A collection of textual material coded in a way that it aims to answer one or more specific research goals
-- The place to go to check your assertions
-- Potentially: a place to send other people to verify or extend upon your work
-☞ Training ASR is an extension of your work that requires a well organised and consistent corpus.
+- Corpus
+- Archive
+- Metadata
+- 
 
 ----
 
@@ -23,11 +16,42 @@
 - A record of work done, gathered while that work is being done
 - A place where that record is preserved by specialists
 - A place where researchers and other interested parties can reconstruct the work that you have done
-☞ Corpora are ideally built upon archived or published material, i.e., built upon citable sources
+
+*Corpora are ideally built upon archived or published material, i.e., built upon citable sources*
+
+----
+
+## What is a corpus?
+- A collection of textual material coded in a way that it aims to answer one or more specific research goals
+- The place to go to check your assertions
+- Potentially: a place to send other people to verify or extend upon your work
+
+*Training ASR is an extension of your work that requires a well organised and consistent corpus.*
+
+----
+
+## What is a “clean” corpus?
+
+- One where categories of annotation/metadata are clearly distinguishable to other researchers (and to computers…)
+- One where tokens are consistently delimited in a principled and consistent fashion
+- Ideally, one where each category of annotation/metadata is distinguished in parallel but separate streams.
+- More likely: a collection of conventions that are well documented and consistently applied
+☞ Cleaning a corpus is the process of reviewing the categories that you have coded, documenting conventions, or better moving away from convention to explicit, consistent and verbose coding of categories of annotations such that a non-expert can understand what you have done
+Workflow
+
+----
+
+## What are tokens?
+
+- Chunks of “primary” data
+- a term more conventionally used in computational linguistics
+- A way of thinking about how a computer sees language data
+- A way of thinking about at what levels annotations may apply
 
 ----
 
 ## What is metadata?
+
 - ...Data about data: ...but, that’s almost everything
 - Usually used to refer to classes of specific metadata created for a purpose, e.g.,:
   - File Metadata:
@@ -58,33 +82,14 @@
 
 ----
 
-## What are tokens?
-
-- Chunks of “primary” data
-- a term more conventionally used in computational linguistics
-- A way of thinking about how a computer sees language data
-- A way of thinking about at what levels annotations may apply
-
-----
-
-## What is a “clean” corpus?
-
-- One where categories of annotation/metadata are clearly distinguishable to other researchers (and to computers…)
-- One where tokens are consistently delimited in a principled and consistent fashion
-- Ideally, one where each category of annotation/metadata is distinguished in parallel but separate streams.
-- More likely: a collection of conventions that are well documented and consistently applied
-☞ Cleaning a corpus is the process of reviewing the categories that you have coded, documenting conventions, or better moving away from convention to explicit, consistent and verbose coding of categories of annotations such that a non-expert can understand what you have done
-Workflow
-
-----
-
-## Where does archiving fit relative to my research goals?
-## Where does corpus building fit relative to my research goals?
-## How does principled corpus building and archiving help me achieve my research goals?
+### Where does archiving fit relative to my research goals?
+### Where does corpus building fit relative to my research goals?
+### How does principled corpus building and archiving help me achieve my research goals?
 
 ----
 
 ## Data Gathering
+
 - Junk-in junk-out
 - It all starts with the best possible data
 - Gathering good primary data
