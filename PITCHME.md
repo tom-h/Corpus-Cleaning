@@ -14,13 +14,9 @@ https://gitpitch.com/tom-h/Corpus-Cleaning/master
 
 ---
 
-- Workflows
-
----
-
 (time permitting)
 
-- ELAN
+- ELAN setup
 - OpenRefine
 
 ---
@@ -39,14 +35,16 @@ https://gitpitch.com/tom-h/Corpus-Cleaning/master
 - A place where that record is preserved by specialists |
 - A place where researchers and other interested parties can reconstruct the work that you have done |
 
-- Corpora are ideally built upon archived or published material, i.e., built upon citable sources |
+---
+
+- Corpora are ideally built upon archived or published material, i.e., built upon citable sources
 
 ---
 
-- Archiving is **not** publishing |
-- *(sort of...)* |
+- Archiving is not publishing |
+- (sort of...) |
 
-*Archival sources are enduring and citeable*
+- Archival sources are enduring and citeable |
 
 ---
 
@@ -56,24 +54,15 @@ https://gitpitch.com/tom-h/Corpus-Cleaning/master
 - The place to go to discover/check your assertions | 
 - Potentially: a place to send other people to verify or extend upon your work |
 
-*Training ASR is an extension of your work that requires a well organised and consistent corpus.* |
+---
+
+- Training ASR is an extension of your work that requires a well organised and consistent corpus
 
 ---
 
 - A corpus is not an archive |
+- A corpus is more than a bundle of files |
 - "Collection", "Bundle" and "Corpus" are all terms used to refer to archived files |
-
----
-
-## What is a “clean” corpus?
-
-- One where categories of annotation/metadata are clearly distinguishable to other researchers (and to computers…) |
-- One where tokens are consistently delimited in a principled and consistent fashion |
-- Ideally, one where each category of annotation/metadata is distinguished in parallel but separate streams |
-
----
-
-- More likely: a collection of conventions that are well documented and consistently applied
 
 ---
 
@@ -86,13 +75,25 @@ https://gitpitch.com/tom-h/Corpus-Cleaning/master
 
 ---
 
-## What is metadata?
+## What are annotations?
 
-- ...Data about data
+- A type of “metadata”: an elaboration on data or metadata
 
 ---
 
-Usually used to refer to classes of specific metadata created for a purpose, e.g.,:
+- "Annotation" is used broadly in ELAN
+
+---
+
+## What is metadata?
+
+- ...Data about data |
+- data: observation |
+- metadata: embues meaning |
+
+---
+
+Usually used to refer to classes of specific/standardised metadata created for a purpose, e.g.,:
 
 - File Metadata: Date and times, Filename, File type, Permissions, etc...
 
@@ -109,18 +110,7 @@ Usually used to refer to classes of specific metadata created for a purpose, e.g
 
 - Specific categories of metadata that may overlap with archiving |
 - Coding of categories that inform your research questions |
-
----
-
-## What are annotations?
-
-- A type of “metadata”: an elaboration on data or metadata
-
-
----
-
- - "Annotation" is used broadly in ELAN
-
+  - e.g., instances of a specific pattern not easily found by a search |
 ---
 
 # Archiving
@@ -148,7 +138,7 @@ Usually used to refer to classes of specific metadata created for a purpose, e.g
 
 ---
 
-### Archive new materials as they are created
+### Archive new materials as they are created:
 
 - Media files don't change once captured (usually) |
 - Transcripts change between capturing, reviewing and corpus building |
@@ -184,95 +174,39 @@ You do not need to be an expert at this! The data manager, Julia Miller, is avai
 
 ---
 
-Many linguistics projects start with the gathering of language data into a collection called a “corpus”
-
-- CoEDL has a central project to capture corpora of Australian and Pacific language materials |
+- CoEDL has a goal to capture corpora of Australian and Pacific language materials
 
 ---
 
-- The primary object in a (textual) corpus is the text |
-  - annotations contextualise/interpret this text |
-  - timecodes are annotations on text |
-- "audiovisual corpus" |
+- after initial segmentation, transcription and translation
 
 ---
 
-## Corpus
-
-- A corpus aggregates individual transcripts/sessions/documents/text into a larger “document” or database |
-- coding of comparable categories needs to be equivalent across individual documents |
-  - otherwise "counting" becomes fairly meaningless |
-
----
-
-## Baseline text
-
-- transcription |
-- tokenised text |
-
----
-## Annotation
-
-- structures "above" |
-- structures "below" |
+- gather together texts
+  - own materials
+  - legacy materials
+  - other team members
 
 ---
 
-## Metadata
-
-- metadata for a corpus can be more complex than archiving
-- contextualises a fragment of text
-- general statements become less useful (e.g., a list of speakers)
+- design may answer research question
+- may need to control for variables
 
 ---
 
-## Design
-
-- Design limits/shapes potential uses
-  - What kinds of questions can be asked?
-  - What structure best communicates categories of information?
+# Corpus Cleaning
 
 ---
 
-## Reality
-
-- you will be highly time constrained in gathering data |
-- you may prioritise gathering new data over tidying |
-- you may have a mix of quality of data |
+## transcription
+## annotation
+## document grouping and/or metadata
 
 ---
 
-## Cleaning
-
-- Historical conventions are driven by a need to save time/space |
-- Humans are terrible at being consistent! |
+## transcription
 
 ---
-
-## Cleaning
-
-- reviewing the categories that you have coded |
-- documenting conventions |
-- providing metadata to describe the components of the corpus |
-- moving away from convention to explicit, consistent and verbose coding of categories of annotations |
-
----
-
-- reveals inconsistencies |
-- tests robustness of categories |
-
----
-
-## Mixed categories
-
-- Many linguists work with, at a minimum, chunks of transcription, and possibly corresponding translation. While these may seem straightforward categories of data, in reality they are often a jumble of mixed categories.
-- Inline meta-annotation, often by a set of loose and expanding conventions, is useful way of speeding up transcription. 
-
-*It is a good idea to review, separate and expand these conventions once the corpus is of a reasonable size. Working on a corpus of a reasonable size will allow you to clean more quickly, without repeating work.*
-
----
-
-## Transcription
 
 For ASR, and more generally, the principles behind the transcription need to be consistent.
 
@@ -282,7 +216,7 @@ For ASR, and more generally, the principles behind the transcription need to be 
 
 ---
 
-- If someone is switching between Kriol, English and another language, what is the phonemic equivalent of a numeral like “1”?
+- If someone is switching between Kriol, English and another language, what is the phonemic equivalent of a numeral like “3”?
 
 ---
 
@@ -293,6 +227,7 @@ For ASR, and more generally, the principles behind the transcription need to be 
 ---
 
 - Are meta- or para-linguistic events folded into the transcription?
+- if so, do they disrupt the text, or occur in parallel
 
 ---
 
@@ -308,14 +243,19 @@ For ASR, and more generally, the principles behind the transcription need to be 
   
 ---
 
+Once separated, consider tokenising your text (or think about the consistency of your convention)
+
+---
+
 - What are spaces used for?|
-  - what about compounds? |
+  - what about compounds? "washing machine" |
 
 ---
 
-## Translation
+## Annotation
 
----
+- are comments folded into translation?
+- are controlled vocabularies consistent?
 
 ---
 
@@ -337,13 +277,14 @@ Mosel, Ulrike 2012 "Advances in the accountability of grammatical analysis and d
 
 - CHAT is an extremely elaborate system of conventions coding very precise features. 
 
+---
+
 ### In ELAN:
 
 - Explode conventions into parallel tiers
-
-### In General:
-
-- Search for punctuation, sequences of capital letters, ...
+- use tokensing features
+- hide unused tiers
+- use the ""
 
 # ELAN setup
 
@@ -351,31 +292,39 @@ Mosel, Ulrike 2012 "Advances in the accountability of grammatical analysis and d
 
 ### Types and Tiers
 
-- Types describes the nature of the data being captured
+- Types describe the nature of the data being captured
 - Tiers are instantiations of those types 
 
 ---
 
 ## Types
 
-"transcription", "translation", "morphs", "words", "commentary", "custom coding"
+"phonemic transcription", "english translation", "morphs", "commentary", "reported speech", "left hand shape"
+
+---
+
+## Types
 
 *ideally, a type should describe the nature of the data, so that a user can interpret it*
+
+---
+
+## Types
 
 "default", "default-lt", "tx", "ft", "symbolic subdivision", "included in"
 
 ---
 
-# Types > Stereotypes
+## Types > Stereotypes
 
-- describes the relationship between a parent tier
+- describes the relationship between a tier and its parent
 - code time-based or abstract relations between tiers
 
 ---
 
 #### Types > Stereotypes > Time-based
 
-### "no stereotype"
+### "none"
 ### Included-in
 ### Time-subdivision
 
@@ -383,12 +332,11 @@ Mosel, Ulrike 2012 "Advances in the accountability of grammatical analysis and d
 
 #### Types > Stereotypes > Time-based 
 
-### "no stereotype"
+### "none"
 
 - no parent tier
 - spans of time that describe something close to the original recording
-  - an utterance
-  - a distinct physical event, guesture, hand shape
+  - a class of transcription (e.g., utterances, hand guestures, mouthing)
 
 ---
 
@@ -399,6 +347,7 @@ Mosel, Ulrike 2012 "Advances in the accountability of grammatical analysis and d
 - one or more spans of time within a larger span
   - a distinct event within a larger one
   - a raised eyebrow
+  - a cough
 
 ---
 
@@ -406,7 +355,7 @@ Mosel, Ulrike 2012 "Advances in the accountability of grammatical analysis and d
 
 ### Time sub-division
 
-- One or more subevents that entirely overlap with the parent span (no gaps!)
+- One or more time based subevents that entirely overlap with the parent span (no gaps!)
   - words in an utterance
   - +/- raised eyebrow
   
@@ -423,11 +372,77 @@ Mosel, Ulrike 2012 "Advances in the accountability of grammatical analysis and d
 
 #### Types > Stereotypes > Abstract relations
 
-### Symbolic Sub-division
-### Symbolic Association
+### Symbolic sub-division
+### Symbolic association
 
 ---
 
 #### Types > Stereotypes > Abstract relations
 
 - codes abstract relations
+- one-to-one or one-to-many (in order)
+
+---
+
+#### Types > Stereotypes > Abstract relations
+
+### Symbolic sub-division
+
+- one-to-many
+- sentence and words
+- words and segments (especially for digraphs)
+
+---
+
+#### Types > Stereotypes > Abstract relations
+
+### Symbolic association
+
+- one-to-one
+- word/morph and gloss
+- transcription and translation
+
+---
+
+## Tiers
+
+- label
+- type
+- speaker
+
+---
+
+- label = type x speaker
+- use a delimiter
+- shorter labels usually considered okay
+
+---
+
+### Toolbox:
+
+"type@speaker"
+
+---
+
+## Templates
+
+- one per speaker
+- common tiers can be included
+
+---
+
+## Consistency
+
+- use 'File' > 'Multiple File Processing' > 'edit multiple files'
+
+---
+
+# demonstration in ELAN
+
+---
+
+# OpenRefine
+
+---
+
+# Thanks
