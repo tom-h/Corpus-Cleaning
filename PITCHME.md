@@ -198,6 +198,11 @@ You do not need to be an expert at this! The data manager, Julia Miller, is avai
 
 ---
 
+- Historical conventions are driven by a need to save time/space |
+- Humans are terrible at being consistent! |
+
+---
+
 ## transcription
 ## annotation
 ## document grouping and/or metadata
@@ -206,6 +211,12 @@ You do not need to be an expert at this! The data manager, Julia Miller, is avai
 
 ## transcription
 
+---
+
+if the transcription is not pure, then:
+- create annotations distinguishing these categories
+- avoid using inline conventions
+- do this for the entire corpus
 ---
 
 For ASR, and more generally, the principles behind the transcription need to be consistent.
@@ -221,17 +232,26 @@ For ASR, and more generally, the principles behind the transcription need to be 
 ---
 
 - Are there any shorthand forms like abbreviation?
-  - “PNG”
-  - “Hello? X5”
+  - “PNG” -> "pap(u)a niu gini" "pi en ji"
+  - “hello? x5” -> "hello hello hello hello hello"
+
+---
+
+Are capitals used for more than abbreviations?
+
+- SHOUTING, CODE SWITCHING, KEY WORDS
 
 ---
 
 - Are meta- or para-linguistic events folded into the transcription?
 - if so, do they disrupt the text, or occur in parallel
+- -> split into a separate layer/tier
 
 ---
 
 - What punctuation is used, and what does it mean?
+- -> revisit the issue of segmentation
+- -> create a version without punctuation
 
 ---
 
@@ -259,6 +279,20 @@ Once separated, consider tokenising your text (or think about the consistency of
 
 ---
 
+## document grouping and/or metadata
+
+- group files along meaningful dimensions to your research question
+  - genre, gender, collector, date
+  - degree of annotation
+
+---
+
+(For corpus shepherds)
+
+- cluster like files into nested folders and place a metadata file in each folder
+
+---
+
 ## Tools
 
 - Most transcription software has a built-in means of reviewing and changing the consistency of a corpus |
@@ -275,7 +309,10 @@ Mosel, Ulrike 2012 "Advances in the accountability of grammatical analysis and d
 
 ### In CLAN:
 
-- CHAT is an extremely elaborate system of conventions coding very precise features. 
+- CHAT is an extremely elaborate system of conventions coding very precise features
+- compose a grammar to provide a mor tier
+- separate out comments into a comment line
+- fill your headers
 
 ---
 
@@ -284,7 +321,9 @@ Mosel, Ulrike 2012 "Advances in the accountability of grammatical analysis and d
 - Explode conventions into parallel tiers
 - use tokensing features
 - hide unused tiers
-- use the ""
+- use the multi-file editing features
+
+---
 
 # ELAN setup
 
