@@ -9,13 +9,18 @@ https://gitpitch.com/tom-h/Corpus-Cleaning/master
 # Topics
 
 - Terminology
-- Workflow(s)
 - Archiving
+- Corpus building and cleaning
 
 ---
 
-- Corpus cleaning
-- ELAN setup
+- Workflows
+
+---
+
+(time permitting)
+
+- ELAN
 - OpenRefine
 
 ---
@@ -34,7 +39,14 @@ https://gitpitch.com/tom-h/Corpus-Cleaning/master
 - A place where that record is preserved by specialists |
 - A place where researchers and other interested parties can reconstruct the work that you have done |
 
-*Corpora are ideally built upon archived or published material, i.e., built upon citable sources*
+*Corpora are ideally built upon archived or published material, i.e., built upon citable sources* |
+
+---
+
+- Archiving is **not** publishing |
+- *(sort of...)* |
+
+*Archival sources are enduring and citeable*
 
 ---
 
@@ -44,11 +56,12 @@ https://gitpitch.com/tom-h/Corpus-Cleaning/master
 - The place to go to discover/check your assertions | 
 - Potentially: a place to send other people to verify or extend upon your work |
 
-*Training ASR is an extension of your work that requires a well organised and consistent corpus.*
+*Training ASR is an extension of your work that requires a well organised and consistent corpus.* |
 
 ---
 
-- A corpus is not an archive
+- A corpus is not an archive |
+- "Collection", "Bundle" and "Corpus" are all terms used to refer to archived files |
 
 ---
 
@@ -56,18 +69,11 @@ https://gitpitch.com/tom-h/Corpus-Cleaning/master
 
 - One where categories of annotation/metadata are clearly distinguishable to other researchers (and to computers…) |
 - One where tokens are consistently delimited in a principled and consistent fashion |
-- Ideally, one where each category of annotation/metadata is distinguished in parallel but separate streams 
+- Ideally, one where each category of annotation/metadata is distinguished in parallel but separate streams |
 
 ---
 
 - More likely: a collection of conventions that are well documented and consistently applied
-
----
-
-Cleaning a corpus is the process of:
-- reviewing the categories that you have coded, 
-- documenting conventions, or better
-- moving away from convention to explicit, consistent and verbose coding of categories of annotations
 
 ---
 
@@ -94,15 +100,15 @@ Usually used to refer to classes of specific metadata created for a purpose, e.g
 
 ## Archival metadata
 
-- Descriptive metadata, Rights metadata, Provenance Metadata, Structural metadata
+- Descriptive metadata, Rights metadata, Provenance Metadata, Structural metadata, Content metadata
 - etc
 
 ---
 
 ## Research metadata
 
-- Specific categories of metadata that may overlap with archiving
-- Coding of categories that inform your research questions
+- Specific categories of metadata that may overlap with archiving |
+- Coding of categories that inform your research questions |
 
 ---
 
@@ -110,37 +116,10 @@ Usually used to refer to classes of specific metadata created for a purpose, e.g
 
 - A type of “metadata”: an elaboration on data or metadata
 
----
-
-# Workflow
 
 ---
 
-#### What to watch out for early on
-#### Where does archiving fit relative to my research goals?
-#### Where does corpus building fit relative to my research goals?
-#### How does principled corpus building and archiving help me achieve my research goals?
-
----
-#### Where does archiving fit relative to my research goals?
-
-## Data Gathering
-
-- Junk-in junk-out
-- It all starts with the best possible data
-- Gathering good primary data
-- Noise free audio
-- Metadata best practice
-
----
-
-## Legacy materials
-
-- Careful treatment of legacy materials
-- Tracking original metadata to capture context in a recoverable fashion
-- Close association between original data and enriched forms
-
-E.g., new annotations reference page numbers of source, filename for image of source, etc
+ - "Annotation" is used broadly in ELAN
 
 ---
 
@@ -148,46 +127,49 @@ E.g., new annotations reference page numbers of source, filename for image of so
 
 ---
 
-- Archives capture bundles of files that record the work that you have done
-- Ideally, this would capture change over time, not just “finished” materials
-- Work that contextualises language material is suitable for archiving
+- Archives capture bundles of files that record the work that you have done |
+- Ideally, this would capture change over time, not just “finished” materials |
+- Any work that contextualises language material is suitable for archiving |
 
 ---
 
 - Links to legacy materials, or further work based on legacy materials
-- Genealogies
-- Fieldnotes
-- etc...
+  - Genealogies
+  - Fieldnotes
+  - Lexicons
+  - Photos
+  - etc...
 
 ---
 
-- Archive early, archive incrementally
-- Get permissions, do the paperwork, create a collection
-- Understand the requirements of file-naming and directory structure
+- Archive early, archive incrementally |
+- Get permissions, do the paperwork, create a collection |
+- Understand the requirements of file-naming and directory structure |
 
 ---
 
 ### Archive new materials as they are created
-  - Media generally doesn’t change once captured, and so it can and should be archived immediately
-  - Transcripts change between capturing, reviewing and corpus building
-  - Consider archiving on a timetable to capture these changes, or archiving at the end of certain phases of work
+
+- Media files don't change once captured (usually) |
+- Transcripts change between capturing, reviewing and corpus building |
+- Consider archiving on a timetable to capture these changes, or archiving at the end of certain phases of work |
 
 ---
 
-- Incremental changes can be extremely useful, and can be kept private if necessary
-- There is no limit on the number of times you can do this, or when you do this
-- Make a record of what you have done:
-  - Imagine someone trying to reverse engineer your work… imagine trying to do it yourself!
+- Incremental changes can be extremely useful, and can be kept private if necessary |
+- There is no limit on the number of times you can do this, or when you do this |
+- Make a record of what you have done: |
+  - Imagine someone trying to reverse engineer your work… imagine trying to do it yourself! |
 
 ---
 
 ### Use the benefits of early archiving:
 
-  - Working/compressed versions of media files always available for download... the day after archiving
-  - A record of what changed when (very important as data is now born digital)
-  - Metadata folded into media
-  - Neatly organised file structure and metadata
-  
+  - Working/compressed versions of media files always available for download... the day after archiving |
+  - A record of what changed when (very important as data is now born digital) |
+  - Metadata folded into media |
+  - Neatly organised file structure and metadata |
+  - Citeable sources |  
 ---
 
 **Note that there are expectations and guidelines for archiving for CoEDL Member/Affiliates:**
@@ -204,52 +186,80 @@ You do not need to be an expert at this! The data manager, Julia Miller, is avai
 
 Many linguistics projects start with the gathering of language data into a collection called a “corpus”
 
-- The corpus may be a subset of archived materials, and may incorporate work produced by others. Ideally, it is built on citable sources.
+- CoEDL has a central project to capture corpora of Australian and Pacific language materials |
 
 ---
 
-- CoEDL has a separate project to capture corpora of Australian and Pacific language materials
-The primary object in a textual corpus is the text, while annotations contextualise this text
-- This inverts the relationship between the notion of the audio as the primary source. An audio segment instead contextualises the text!
+- The primary object in a (textual) corpus is the text |
+  - annotations contextualise/interpret this text |
+  - timecodes are annotations on text |
+- "audiovisual corpus" |
 
 ---
 
-A corpus aggregates individual transcripts/sessions into a larger “document” or database
+## Corpus
 
-- This means that structure and coding of comparable categories needs to be equivalent across individual documents
+- A corpus aggregates individual transcripts/sessions/documents/text into a larger “document” or database |
+- coding of comparable categories needs to be equivalent across individual documents |
+  - otherwise "counting" becomes fairly meaningless |
+
+---
+
+## Baseline text
+
+- transcription |
+- tokenised text |
+
+---
+## Annotation
+
+- structures "above" |
+- structures "below" |
+
+---
+
+## Metadata
+
+- metadata for a corpus can be more complex than archiving
+- contextualises a fragment of text
+- general statements become less useful (e.g., a list of speakers)
 
 ---
 
 ## Design
 
 - Design limits/shapes potential uses
-- What kinds of questions can be asked?
-- What structure best communicates categories of information?
+  - What kinds of questions can be asked?
+  - What structure best communicates categories of information?
 
 ---
 
-- Historical conventions are driven by a need to save space on a printed page, and the need to save time when typing it all in
-- Humans are terrible at being consistent!
-- Good design will broaden the possible uses of your work
-- Planning to change your mind will help
+## Reality
+
+- you will be highly time constrained in gathering data |
+- you may prioritise gathering new data over tidying |
+- you may have a mix of quality of data |
 
 ---
 
-## Tools
+## Cleaning
 
-- Most transcription software has a built-in means of reviewing and changing the consistency of a corpus
+- Historical conventions are driven by a need to save time/space |
+- Humans are terrible at being consistent! |
 
-### In CLAN:
+---
 
-- CHAT is an extremely elaborate system of conventions coding very precise features. 
+## Cleaning
 
-### In ELAN:
+- reviewing the categories that you have coded |
+- documenting conventions |
+- providing metadata to describe the components of the corpus |
+- moving away from convention to explicit, consistent and verbose coding of categories of annotations |
 
-- Explode conventions into parallel tiers
+---
 
-### In General:
-
-- Search for punctuation, sequences of capital letters, ...
+- reveals inconsistencies |
+- tests robustness of categories |
 
 ---
 
@@ -290,17 +300,50 @@ For ASR, and more generally, the principles behind the transcription need to be 
 
 ---
 
-- Is the same punctuation used for more than one purpose?
-  - “He walk-ed.” (morpheme boundary)
-  - “He wal- … ran.” (false start)
-  - “He walked- no actually he ran.” (“rushed” prosody)
+- Is the same punctuation used for more than one purpose? |
+  - “He walk-ed.” or "He walk -ed." (morpheme boundary) |
+  - “He wal- … ran.” (false start) |
+  - “He walked--no actually he ran.” (“rushed” prosody / parenthetical) |
+  - "He wa----lked." (length)
   
 ---
 
 - What are spaces used for?|
-  - what about compounds?
+  - what about compounds? |
 
 ---
+
+## Translation
+
+---
+
+---
+
+## Tools
+
+- Most transcription software has a built-in means of reviewing and changing the consistency of a corpus |
+- sometimes a text editor is sufficient |
+- regular expressions are awesome! |
+
+---
+
+#### regular expressions
+
+Mosel, Ulrike 2012 "Advances in the accountability of grammatical analysis and description by using regular expressions" LD&C Special Publication 4
+
+---
+
+### In CLAN:
+
+- CHAT is an extremely elaborate system of conventions coding very precise features. 
+
+### In ELAN:
+
+- Explode conventions into parallel tiers
+
+### In General:
+
+- Search for punctuation, sequences of capital letters, ...
 
 # ELAN setup
 
