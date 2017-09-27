@@ -39,7 +39,7 @@ https://gitpitch.com/tom-h/Corpus-Cleaning/master
 - A place where that record is preserved by specialists |
 - A place where researchers and other interested parties can reconstruct the work that you have done |
 
-Corpora are ideally built upon archived or published material, i.e., built upon citable sources |
+- Corpora are ideally built upon archived or published material, i.e., built upon citable sources |
 
 ---
 
